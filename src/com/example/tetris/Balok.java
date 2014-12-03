@@ -4,6 +4,7 @@ public class Balok{
 	public int [][] bentuk = new int [4][4];
 	public int id;
 	public Balok(int id){
+//
 //		1=S
 //		2=Z
 //		3=L
