@@ -6,8 +6,8 @@
     <string name="action_settings">Settings</string>
     <string name="kanan">kanan</string>
     <string name="kiri">kiri</string>
-    <string name="balok">balok</string>
-    <string name="fall">fall</string>
+    <string name="balok">pause</string>
+    <string name="fall">resume</string>
     <string name="title_activity_menu">Menu</string>
 
 </resources>
