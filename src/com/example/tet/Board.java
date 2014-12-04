@@ -597,7 +597,6 @@ public class Board extends Thread {
 			for (int j = 0; j < 9; j++) {
 				if(bayangan[i][j] == 0){
 					board[i][j].setBackgroundResource(R.drawable.imgview);
-					//board[i][j].setBackgroundColor(Color.parseColor("#ff0000"));
 				} else {
 					board[i][j].setBackgroundColor(Color.parseColor("#ff0000"));
 				}
