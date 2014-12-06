@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity implements
 	Button b3;
 	Button b4;
 	Button b5;
-	int speed = 500;
+	int speed = 400;
 	ImageButton gameOver;
 	Board board;
 	boolean pause = false;
@@ -123,18 +123,10 @@ public class MainActivity extends ActionBarActivity implements
 								Balok balok1 = new Balok(idb % 7);
 								idb++;
 								board.getKoordinat(balok1);
-								board.board[board.X1[0]][board.X1[1]]
-										.setBackgroundColor(Color
-												.parseColor("#ff0000"));
-								board.board[board.X2[0]][board.X2[1]]
-										.setBackgroundColor(Color
-												.parseColor("#ff0000"));
-								board.board[board.X3[0]][board.X3[1]]
-										.setBackgroundColor(Color
-												.parseColor("#ff0000"));
-								board.board[board.X4[0]][board.X4[1]]
-										.setBackgroundColor(Color
-												.parseColor("#ff0000"));
+								board.board[board.X1[0]][board.X1[1]].setBackgroundResource(R.drawable.tiles);
+								board.board[board.X2[0]][board.X2[1]].setBackgroundResource(R.drawable.tiles);
+								board.board[board.X3[0]][board.X3[1]].setBackgroundResource(R.drawable.tiles);
+								board.board[board.X4[0]][board.X4[1]].setBackgroundResource(R.drawable.tiles);
 							}
 						}
 					}
@@ -143,60 +135,6 @@ public class MainActivity extends ActionBarActivity implements
 			}
 		});
 
-//		final Handler h = new Handler();
-//		Runnable rb = new Runnable() {
-//			@Override
-//			public void run() {
-//				if (!pause && !board.gameOver) {
-//					if (mRecorder == null) {
-//						mRecorder = new MediaRecorder();
-//						mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-//						mRecorder
-//								.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-//						mRecorder
-//								.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
-//						mRecorder.setOutputFile("/dev/null");
-//						try {
-//							mRecorder.prepare();
-//						} catch (IllegalStateException e) {
-//							// TODO Auto-generated catch block
-//							e.printStackTrace();
-//						} catch (IOException e) {
-//							// TODO Auto-generated catch block
-//							e.printStackTrace();
-//						}
-//						mRecorder.start();
-//					}
-//					int a = mRecorder.getMaxAmplitude();
-//					mEdit.setText("" + a);
-//					if (a > 25000) {
-//						speed = 20;
-//					} else {
-//						// speed = 500;
-//					}
-//					board.turun();
-//					h.postDelayed(this, speed);
-//					mScore.setText("" + board.score);
-//					if (board.gameOver) {
-//						gameOver.setVisibility(View.VISIBLE);
-//					} else if (board.newBalok) {
-//						speed = 500;
-//						Balok balok1 = new Balok(idb % 8);
-//						idb++;
-//						board.getKoordinat(balok1);
-//						board.board[board.X1[0]][board.X1[1]]
-//								.setBackgroundColor(Color.parseColor("#ff0000"));
-//						board.board[board.X2[0]][board.X2[1]]
-//								.setBackgroundColor(Color.parseColor("#ff0000"));
-//						board.board[board.X3[0]][board.X3[1]]
-//								.setBackgroundColor(Color.parseColor("#ff0000"));
-//						board.board[board.X4[0]][board.X4[1]]
-//								.setBackgroundColor(Color.parseColor("#ff0000"));
-//					}
-//				}
-//			}
-//		};
-//		h.postDelayed(rb, speed);
 
 		b = (Button) findViewById(R.id.button1);
 
@@ -255,11 +193,13 @@ public class MainActivity extends ActionBarActivity implements
 	public void onSensorChanged(SensorEvent event) {
 		Sensor acc = event.sensor;
 		if (event.values[0] > 8) {
-			// mEdit.setText("" + event.values[0] + " , " + event.values[1]
-			// + " , " + event.values[2]);
+			 mEdit.setText("" + event.values[0] + " , " + event.values[1]
+			 + " , " + event.values[2]);
 		}
 		Sensor mySensor = event.sensor;
 		//
+		 mEdit.setText("" + event.values[0] + " , " + event.values[1]
+				 + " , " + event.values[2]);
 		if (mySensor.getType() == Sensor.TYPE_ACCELEROMETER) {
 			if (initialized) {
 				float x = event.values[0];
@@ -282,10 +222,9 @@ public class MainActivity extends ActionBarActivity implements
 						board.kekanan();
 					}
 
-					// harusnya zSpeed
 					// float zSpeed = (y - last_y) / diffTime * 10000;
-					float zSpeed = (y - init_y);
-					if (zSpeed > 10) {
+					float zSpeed = (z - init_z);
+					if (zSpeed > 7) {
 						board.puter();
 					}
 					// mEdit.setText("" + init_x + " , " + init_y + " , " +
@@ -509,21 +448,33 @@ public class MainActivity extends ActionBarActivity implements
 		idb = 1;
 		Balok balok = new Balok(1);
 		board.getKoordinat(balok);
-		board.board[board.X1[0]][board.X1[1]].setBackgroundColor(Color
-				.parseColor("#ff0000"));
-		board.board[board.X2[0]][board.X2[1]].setBackgroundColor(Color
-				.parseColor("#ff0000"));
-		board.board[board.X3[0]][board.X3[1]].setBackgroundColor(Color
-				.parseColor("#ff0000"));
-		board.board[board.X4[0]][board.X4[1]].setBackgroundColor(Color
-				.parseColor("#ff0000"));
-	
-		speed = 500;
+		board.board[board.X1[0]][board.X1[1]].setBackgroundResource(R.drawable.tiles);
+		board.board[board.X2[0]][board.X2[1]].setBackgroundResource(R.drawable.tiles);
+		board.board[board.X3[0]][board.X3[1]].setBackgroundResource(R.drawable.tiles);
+		board.board[board.X4[0]][board.X4[1]].setBackgroundResource(R.drawable.tiles);
+
+		speed = 400;
 		final Handler h = new Handler();
 		Runnable rb = new Runnable() {
 			@Override
 			public void run() {
 				if (!pause && !board.gameOver) {
+					board.turun();
+					h.postDelayed(this, speed);
+					mScore.setText("" + board.score);
+					if (board.gameOver) {
+						gameOver.setVisibility(View.VISIBLE);
+					} else if (board.newBalok) {
+						speed = 400;
+						Balok balok1 = new Balok(idb % 8);
+						idb++;
+						board.getKoordinat(balok1);
+						board.board[board.X1[0]][board.X1[1]].setBackgroundResource(R.drawable.tiles);
+						board.board[board.X2[0]][board.X2[1]].setBackgroundResource(R.drawable.tiles);
+						board.board[board.X3[0]][board.X3[1]].setBackgroundResource(R.drawable.tiles);
+						board.board[board.X4[0]][board.X4[1]].setBackgroundResource(R.drawable.tiles);
+					}
+
 					if (mRecorder == null) {
 						mRecorder = new MediaRecorder();
 						mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
@@ -544,30 +495,11 @@ public class MainActivity extends ActionBarActivity implements
 						mRecorder.start();
 					}
 					int a = mRecorder.getMaxAmplitude();
-					mEdit.setText("" + a);
+					//mEdit.setText("" + a);
 					if (a > 25000) {
 						speed = 20;
 					} else {
-						// speed = 500;
-					}
-					board.turun();
-					h.postDelayed(this, speed);
-					mScore.setText("" + board.score);
-					if (board.gameOver) {
-						gameOver.setVisibility(View.VISIBLE);
-					} else if (board.newBalok) {
-						speed = 500;
-						Balok balok1 = new Balok(idb % 8);
-						idb++;
-						board.getKoordinat(balok1);
-						board.board[board.X1[0]][board.X1[1]]
-								.setBackgroundColor(Color.parseColor("#ff0000"));
-						board.board[board.X2[0]][board.X2[1]]
-								.setBackgroundColor(Color.parseColor("#ff0000"));
-						board.board[board.X3[0]][board.X3[1]]
-								.setBackgroundColor(Color.parseColor("#ff0000"));
-						board.board[board.X4[0]][board.X4[1]]
-								.setBackgroundColor(Color.parseColor("#ff0000"));
+						// speed = 400;
 					}
 				}
 			}
@@ -575,4 +507,5 @@ public class MainActivity extends ActionBarActivity implements
 		h.postDelayed(rb, speed);
 
 	}
+	
 }
