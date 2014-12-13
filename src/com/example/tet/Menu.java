@@ -1,9 +1,12 @@
 package com.example.tet;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Bundle;
-//import android.view.Menu;
+import android.widget.ToggleButton;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,45 +14,95 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class Menu extends ActionBarActivity {
+	private MediaPlayer mediaSound;
+	SharedPreferences pref;
+	String game = "Teris";
+	SharedPreferences.Editor editorScore;
+	private Context context;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		context = this;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu);
 
-		ImageButton play = (ImageButton) findViewById(R.id.imageButton1);
-		
-		play.setOnClickListener(new View.OnClickListener() {
+		mediaSound = MediaPlayer.create(this, R.raw.menumusic);
+		mediaSound.start();
+
+		ImageButton playButton = (ImageButton) findViewById(R.id.imageButton1);
+		ImageButton highscoreButton = (ImageButton) findViewById(R.id.imageButton2);
+
+		playButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				Intent act2 = new Intent(view.getContext(), MainActivity.class);
+				if (mediaSound != null) {
+					mediaSound.stop();
+				}
 				startActivity(act2);
+			}
+		});
+
+		ToggleButton toggle = (ToggleButton) findViewById(R.id.toggleButton1);
+		toggle.setTextOn("");
+		toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView,
+					boolean isChecked) {
+				// TODO Auto-generated method stub
+				if (isChecked) {
+					mediaSound.stop();
+				} else {
+					if (mediaSound != null) {
+						mediaSound.stop();
+					}
+					mediaSound = MediaPlayer.create(context, R.raw.menumusic);
+					mediaSound.start();
+				}
+			}
+		});
+
+		// /////////////////////////// HIGH SCORE
+		// ////////////////////////////////////
+		pref = getSharedPreferences(game, 0);
+		editorScore = pref.edit();
+		// ///////////////////////////////////////////////////////////////////////////
+
+		highscoreButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				if (mediaSound != null) {
+					mediaSound.stop();
+				}
+
+				String sca = pref.getString("high", "");
+				String nama = pref.getString("nama", "");
+
+				Intent i = new Intent(getApplicationContext(),
+						Leaderboard.class);
+				i.putExtra("scores", sca);
+				i.putExtra("nama", nama);
+
+				startActivity(i);
 			}
 		});
 
 		ImageView flower = (ImageView) findViewById(R.id.imageView1);
 		ImageButton highscore = (ImageButton) findViewById(R.id.imageButton2);
-//		this.sendViewToBack(play);
-//		this.sendViewToBack(highscore);
-//		this.sendViewToBack(flower);
 
 		RotateAnimation anim = new RotateAnimation(0, 360,
 				Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
 				0.5f);
-		// RotateAnimation anim = new RotateAnimation(0f, 350f, 15f, 15f);
-		// Set the Animation properties
 		anim.setInterpolator(new LinearInterpolator());
 		anim.setRepeatCount(Animation.INFINITE);
 		anim.setDuration(10000);
-		// Start animating the image
 		flower.startAnimation(anim);
-		// // Later. if you want to stop the animation
-		// flower.setAnimation(null);
-
 	}
 
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -75,6 +128,24 @@ public class Menu extends ActionBarActivity {
 		if (null != parent) {
 			parent.removeView(child);
 			parent.addView(child, 0);
+		}
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		if (mediaSound != null) {
+			mediaSound.stop();
+		}
+	}
+
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+		if (mediaSound != null) {
+			mediaSound.stop();
 		}
 	}
 }

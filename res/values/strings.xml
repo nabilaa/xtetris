@@ -9,5 +9,6 @@
     <string name="balok">pause</string>
     <string name="fall">resume</string>
     <string name="title_activity_menu">Menu</string>
-
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="highscore">High Scores</string>
 </resources>

@@ -188,9 +188,9 @@
         android:id="@+id/i21"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="50dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -278,9 +278,9 @@
         android:id="@+id/i31"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="75dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -318,9 +318,9 @@
         android:id="@+id/i35"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="75dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -418,9 +418,9 @@
         android:id="@+id/i108"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -428,9 +428,9 @@
         android:id="@+id/i118"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -438,9 +438,9 @@
         android:id="@+id/i128"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -448,9 +448,9 @@
         android:id="@+id/i138"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -458,9 +458,9 @@
         android:id="@+id/i148"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -468,9 +468,9 @@
         android:id="@+id/i158"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -478,9 +478,9 @@
         android:id="@+id/i168"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -488,9 +488,9 @@
         android:id="@+id/i178"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="200dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -498,9 +498,9 @@
         android:id="@+id/i40"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -508,9 +508,9 @@
         android:id="@+id/i41"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -518,9 +518,9 @@
         android:id="@+id/i42"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -528,9 +528,9 @@
         android:id="@+id/i43"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -538,9 +538,9 @@
         android:id="@+id/i44"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -548,9 +548,9 @@
         android:id="@+id/i45"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -558,9 +558,9 @@
         android:id="@+id/i46"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -568,9 +568,9 @@
         android:id="@+id/i47"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="100dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -578,9 +578,9 @@
         android:id="@+id/i50"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -588,9 +588,9 @@
         android:id="@+id/i51"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -598,9 +598,9 @@
         android:id="@+id/i52"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -608,9 +608,9 @@
         android:id="@+id/i53"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -618,9 +618,9 @@
         android:id="@+id/i54"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -628,9 +628,9 @@
         android:id="@+id/i55"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -638,9 +638,9 @@
         android:id="@+id/i56"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -648,9 +648,9 @@
         android:id="@+id/i57"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="125dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -658,9 +658,9 @@
         android:id="@+id/i60"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -668,9 +668,9 @@
         android:id="@+id/i61"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -678,9 +678,9 @@
         android:id="@+id/i62"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -688,9 +688,9 @@
         android:id="@+id/i63"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -698,9 +698,9 @@
         android:id="@+id/i64"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -708,9 +708,9 @@
         android:id="@+id/i65"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -718,9 +718,9 @@
         android:id="@+id/i66"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -728,9 +728,9 @@
         android:id="@+id/i67"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="150dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -738,9 +738,9 @@
         android:id="@+id/i70"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -748,9 +748,9 @@
         android:id="@+id/i71"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -758,9 +758,9 @@
         android:id="@+id/i72"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -768,9 +768,9 @@
         android:id="@+id/i73"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -778,9 +778,9 @@
         android:id="@+id/i74"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -788,9 +788,9 @@
         android:id="@+id/i75"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -798,9 +798,9 @@
         android:id="@+id/i76"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -808,9 +808,9 @@
         android:id="@+id/i77"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="175dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -818,9 +818,9 @@
         android:id="@+id/i80"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -828,9 +828,9 @@
         android:id="@+id/i81"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -838,9 +838,9 @@
         android:id="@+id/i82"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -848,9 +848,9 @@
         android:id="@+id/i83"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -858,9 +858,9 @@
         android:id="@+id/i84"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -868,9 +868,9 @@
         android:id="@+id/i85"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -878,9 +878,9 @@
         android:id="@+id/i86"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -888,9 +888,9 @@
         android:id="@+id/i87"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="200dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -898,9 +898,9 @@
         android:id="@+id/i90"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -908,9 +908,9 @@
         android:id="@+id/i91"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -918,9 +918,9 @@
         android:id="@+id/i92"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -928,9 +928,9 @@
         android:id="@+id/i93"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -938,9 +938,9 @@
         android:id="@+id/i94"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -948,9 +948,9 @@
         android:id="@+id/i95"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -958,9 +958,9 @@
         android:id="@+id/i96"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -968,9 +968,9 @@
         android:id="@+id/i97"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="225dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -978,9 +978,9 @@
         android:id="@+id/i100"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -988,9 +988,9 @@
         android:id="@+id/i101"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -998,9 +998,9 @@
         android:id="@+id/i102"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1008,9 +1008,9 @@
         android:id="@+id/i103"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1018,9 +1018,9 @@
         android:id="@+id/i104"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1028,9 +1028,9 @@
         android:id="@+id/i105"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1038,9 +1038,9 @@
         android:id="@+id/i106"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1048,9 +1048,9 @@
         android:id="@+id/i107"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="250dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1058,9 +1058,9 @@
         android:id="@+id/i110"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1068,9 +1068,9 @@
         android:id="@+id/i111"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1078,9 +1078,9 @@
         android:id="@+id/i112"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1088,9 +1088,9 @@
         android:id="@+id/i113"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1098,9 +1098,9 @@
         android:id="@+id/i114"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1108,9 +1108,9 @@
         android:id="@+id/i115"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1118,9 +1118,9 @@
         android:id="@+id/i116"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1128,9 +1128,9 @@
         android:id="@+id/i117"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="275dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1138,9 +1138,9 @@
         android:id="@+id/i120"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1148,9 +1148,9 @@
         android:id="@+id/i121"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1158,9 +1158,9 @@
         android:id="@+id/i122"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1168,9 +1168,9 @@
         android:id="@+id/i123"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1178,9 +1178,9 @@
         android:id="@+id/i124"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1188,9 +1188,9 @@
         android:id="@+id/i125"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1198,9 +1198,9 @@
         android:id="@+id/i126"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1208,9 +1208,9 @@
         android:id="@+id/i127"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="300dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1218,9 +1218,9 @@
         android:id="@+id/i130"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1228,9 +1228,9 @@
         android:id="@+id/i131"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1238,9 +1238,9 @@
         android:id="@+id/i132"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1248,9 +1248,9 @@
         android:id="@+id/i133"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1258,9 +1258,9 @@
         android:id="@+id/i134"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1268,9 +1268,9 @@
         android:id="@+id/i135"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1278,9 +1278,9 @@
         android:id="@+id/i136"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1288,9 +1288,9 @@
         android:id="@+id/i137"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="325dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1298,9 +1298,9 @@
         android:id="@+id/i140"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1308,9 +1308,9 @@
         android:id="@+id/i141"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1318,9 +1318,9 @@
         android:id="@+id/i142"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1328,9 +1328,9 @@
         android:id="@+id/i143"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1338,9 +1338,9 @@
         android:id="@+id/i144"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1348,9 +1348,9 @@
         android:id="@+id/i145"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1358,9 +1358,9 @@
         android:id="@+id/i146"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1368,9 +1368,9 @@
         android:id="@+id/i147"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="350dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1378,9 +1378,9 @@
         android:id="@+id/i150"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1388,9 +1388,9 @@
         android:id="@+id/i151"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1398,9 +1398,9 @@
         android:id="@+id/i152"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1408,9 +1408,9 @@
         android:id="@+id/i153"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1418,9 +1418,9 @@
         android:id="@+id/i154"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1428,9 +1428,9 @@
         android:id="@+id/i155"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1438,9 +1438,9 @@
         android:id="@+id/i156"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1448,9 +1448,9 @@
         android:id="@+id/i157"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="375dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1458,9 +1458,9 @@
         android:id="@+id/i160"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1468,9 +1468,9 @@
         android:id="@+id/i161"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="25dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1478,9 +1478,9 @@
         android:id="@+id/i162"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1488,9 +1488,9 @@
         android:id="@+id/i163"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1498,9 +1498,9 @@
         android:id="@+id/i164"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1508,9 +1508,9 @@
         android:id="@+id/i165"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1518,9 +1518,9 @@
         android:id="@+id/i166"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1528,9 +1528,9 @@
         android:id="@+id/i167"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="400dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1538,9 +1538,9 @@
         android:id="@+id/i170"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="0dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1549,8 +1549,8 @@
         android:layout_width="25dip"
         android:layout_height="25dip"
         android:layout_marginLeft="25dip"
-        android:background="@color/brown"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1558,9 +1558,9 @@
         android:id="@+id/i172"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="50dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1568,9 +1568,9 @@
         android:id="@+id/i173"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="75dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1578,9 +1578,9 @@
         android:id="@+id/i174"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="100dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1588,9 +1588,9 @@
         android:id="@+id/i175"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="125dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1598,9 +1598,9 @@
         android:id="@+id/i176"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="150dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
@@ -1608,18 +1608,22 @@
         android:id="@+id/i177"
         android:layout_width="25dip"
         android:layout_height="25dip"
-        android:background="@color/brown"
         android:layout_marginLeft="175dip"
         android:layout_marginTop="425dip"
+        android:background="@color/brown"
         android:contentDescription="@null"
         android:src="@drawable/abc_ab_share_pack_holo_light" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="230dip"
-        android:text="@string/balok" />
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dip"
+        android:alpha="0.6"
+        android:background="@drawable/volumetoogle"
+        android:checked="false"
+        android:textSize="0dip" />
 
     <Button
         android:id="@+id/button2"
@@ -1636,31 +1640,21 @@
         android:layout_marginLeft="230dip"
         android:layout_marginTop="150dip"
         android:text="@string/kanan" />
-    
-    
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="230dip"
-        android:layout_marginTop="250dip"
-        android:text="@string/fall" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dip"
-        android:text="TextView" 
-        />
+        android:text="TextView" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
         android:layout_marginLeft="235dip"
-        android:layout_marginTop="350dip"
+        android:layout_marginTop="320dip"
+        android:text="0"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -1668,7 +1662,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="235dip"
-        android:layout_marginTop="380dip"
+        android:layout_marginTop="362dip"
         android:text="Score"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -1680,12 +1674,23 @@
         android:layout_marginTop="200dip"
         android:text="rotate" />
 
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignTop="@+id/i168"
+        android:background="@drawable/pausetoggle"
+        android:checked="true"
+        android:textSize="0dip" />
+
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="180dip"
+        android:background="@drawable/untitled4"
         android:src="@drawable/menu1"
         android:visibility="gone" />
 

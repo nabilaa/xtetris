@@ -55,5 +55,4 @@ public class Balok{
 			bentuk [2][1]= 7;
 		}
 	}
-	
 }

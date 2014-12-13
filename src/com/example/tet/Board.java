@@ -8,6 +8,8 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.view.View;
 import android.webkit.WebView.FindListener;
@@ -23,6 +25,8 @@ public class Board extends Thread {
 	int score = 0;
 	boolean gameOver = false;
 	boolean newBalok = false;
+	MediaPlayer mp;
+	Drawable tileColor;
 
 	public void awal() {
 		for (int i = 0; i < 18; i++) {
@@ -510,11 +514,13 @@ public class Board extends Thread {
 		}
 	}
 
-	//
 	public void turun() {
 		if (X1[0] < 17 && X2[0] < 17 && X3[0] < 17 && X4[0] < 17
 				&& bisaTurun(X1, X2, X3, X4)) {
 			newBalok = false;
+			if (board[X1[0]][X1[1]].getDrawable() != null) {
+				tileColor = board[X1[0]][X1[1]].getBackground();
+			}
 			bayangan[X1[0]][X1[1]] = 0;
 			bayangan[X2[0]][X2[1]] = 0;
 			bayangan[X3[0]][X3[1]] = 0;
@@ -531,32 +537,27 @@ public class Board extends Thread {
 			bayangan[X2[0]][X2[1]] = 1;
 			bayangan[X3[0]][X3[1]] = 1;
 			bayangan[X4[0]][X4[1]] = 1;
-			board[X1[0]][X1[1]].setBackgroundResource(R.drawable.tiles);
-			board[X2[0]][X2[1]].setBackgroundResource(R.drawable.tiles);
-			board[X3[0]][X3[1]].setBackgroundResource(R.drawable.tiles);
-			board[X4[0]][X4[1]].setBackgroundResource(R.drawable.tiles);
+			board[X1[0]][X1[1]].setBackground(tileColor);
+			board[X2[0]][X2[1]].setBackground(tileColor);
+			board[X3[0]][X3[1]].setBackground(tileColor);
+			board[X4[0]][X4[1]].setBackground(tileColor);
 		}
 		if (!bisaTurun(X1, X2, X3, X4)
 				&& (X1[0] == 0 || X2[0] == 0 || X3[0] == 0 || X4[0] == 0)) {
 			gameOver = true;
 		}
 		if (!bisaTurun(X1, X2, X3, X4)) {
-			// try {
-			// Thread.sleep(100);
-
+			mp.start();
 			checkCleared();
-
-			// } catch (InterruptedException e) {
-			// // TODO Auto-generated catch block
-			// e.printStackTrace();
-			// }
-
 		}
 	}
 
 	public void kekanan() {
 		if (X1[1] < 8 && X2[1] < 8 && X3[1] < 8 && X4[1] < 8
 				&& bisaKekanan(X1, X2, X3, X4) && bisaTurun(X1, X2, X3, X4)) {
+			if (board[X1[0]][X1[1]].getDrawable() != null) {
+				tileColor = board[X1[0]][X1[1]].getBackground();
+			}
 			bayangan[X1[0]][X1[1]] = 0;
 			bayangan[X2[0]][X2[1]] = 0;
 			bayangan[X3[0]][X3[1]] = 0;
@@ -573,16 +574,19 @@ public class Board extends Thread {
 			bayangan[X2[0]][X2[1]] = 1;
 			bayangan[X3[0]][X3[1]] = 1;
 			bayangan[X4[0]][X4[1]] = 1;
-			board[X1[0]][X1[1]].setBackgroundResource(R.drawable.tiles);
-			board[X2[0]][X2[1]].setBackgroundResource(R.drawable.tiles);
-			board[X3[0]][X3[1]].setBackgroundResource(R.drawable.tiles);
-			board[X4[0]][X4[1]].setBackgroundResource(R.drawable.tiles);
+			board[X1[0]][X1[1]].setBackground(tileColor);
+			board[X2[0]][X2[1]].setBackground(tileColor);
+			board[X3[0]][X3[1]].setBackground(tileColor);
+			board[X4[0]][X4[1]].setBackground(tileColor);
 		}
 	}
 
 	public void kekiri() {
 		if (X1[1] > 0 && X2[1] > 0 && X3[1] > 0 && X4[1] > 0
 				&& bisaKekiri(X1, X2, X3, X4) && bisaTurun(X1, X2, X3, X4)) {
+			if (board[X1[0]][X1[1]].getDrawable() != null) {
+				tileColor = board[X1[0]][X1[1]].getBackground();
+			}
 			bayangan[X1[0]][X1[1]] = 0;
 			bayangan[X2[0]][X2[1]] = 0;
 			bayangan[X3[0]][X3[1]] = 0;
@@ -599,16 +603,19 @@ public class Board extends Thread {
 			bayangan[X2[0]][X2[1]] = 1;
 			bayangan[X3[0]][X3[1]] = 1;
 			bayangan[X4[0]][X4[1]] = 1;
-			board[X1[0]][X1[1]].setBackgroundResource(R.drawable.tiles);
-			board[X2[0]][X2[1]].setBackgroundResource(R.drawable.tiles);
-			board[X3[0]][X3[1]].setBackgroundResource(R.drawable.tiles);
-			board[X4[0]][X4[1]].setBackgroundResource(R.drawable.tiles);
+			board[X1[0]][X1[1]].setBackground(tileColor);
+			board[X2[0]][X2[1]].setBackground(tileColor);
+			board[X3[0]][X3[1]].setBackground(tileColor);
+			board[X4[0]][X4[1]].setBackground(tileColor);
 		}
 	}
 
 	public void puter() {
 		if (bisaKekanan(X1, X2, X3, X4) && bisaKekiri(X1, X2, X3, X4)
 				&& bisaTurun(X1, X2, X3, X4)) {
+			if (board[X1[0]][X1[1]].getDrawable() != null) {
+				tileColor = board[X1[0]][X1[1]].getBackground();
+			}
 			int minrow = Math.min(X1[0],
 					Math.min(X2[0], Math.min(X3[0], X4[0])));
 			int mincol = Math.min(X1[1],
@@ -638,40 +645,22 @@ public class Board extends Thread {
 			bayangan[X2[0]][X2[1]] = 1;
 			bayangan[X3[0]][X3[1]] = 1;
 			bayangan[X4[0]][X4[1]] = 1;
-			board[X1[0]][X1[1]].setBackgroundResource(R.drawable.tiles);
-			board[X2[0]][X2[1]].setBackgroundResource(R.drawable.tiles);
-			board[X3[0]][X3[1]].setBackgroundResource(R.drawable.tiles);
-			board[X4[0]][X4[1]].setBackgroundResource(R.drawable.tiles);
+			board[X1[0]][X1[1]].setBackground(tileColor);
+			board[X2[0]][X2[1]].setBackground(tileColor);
+			board[X3[0]][X3[1]].setBackground(tileColor);
+			board[X4[0]][X4[1]].setBackground(tileColor);
 		}
 	}
 
 	private void shiftDown(int startRow) {
-		for (int row = startRow; row > 0; row--) {
+		for (int row = startRow; row >0; row--) {
 			for (int col = 0; col < 9; col++) {
+				tileColor = board[row-1][col].getBackground();
+				board[row-1][col].setBackgroundResource(R.drawable.imgview);
+				board[row][col].setBackground(tileColor);
 				bayangan[row][col] = bayangan[row - 1][col];
 			}
 		}
-	}
-
-	private void draw() {
-		final Handler h = new Handler();
-		Runnable rb = new Runnable() {
-			@Override
-			public void run() {
-				for (int i = 0; i < 18; i++) {
-					for (int j = 0; j < 9; j++) {
-						if (bayangan[i][j] == 0) {
-							board[i][j]
-									.setBackgroundResource(R.drawable.imgview);
-						} else {
-							board[i][j].setBackgroundResource(R.drawable.tiles);
-						}
-					}
-				}
-				newBalok = true;
-			}
-		};
-		h.postDelayed(rb, 150);
 	}
 
 	public boolean checkCleared() {
@@ -687,7 +676,7 @@ public class Board extends Thread {
 				isChanged = true;
 				this.shiftDown(i);
 				score += 9;
-				this.draw();
+				// this.draw();
 				i++;
 			}
 		}
@@ -695,5 +684,9 @@ public class Board extends Thread {
 			newBalok = true;
 		}
 		return cleared;
+	}
+
+	public void setMedia(MediaPlayer media) {
+		this.mp = media;
 	}
 }
